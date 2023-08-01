@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="./CSS/styles.css">
+<script src="./JS/script.js" defer></script>
+
+
+  <!--Fontes Google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!--Ícones - Phosphor Icons-->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <title>Recomendação de Filmes • Bora Codar • Desafio 30</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="movieImg">
+        <img src="./IMG/Logo.svg" alt="logotipo da plataforma">
+        <button id="newMovie">Nova recomendação<i class="ph ph-lightning"></i></button>
+      </div>
+    </header>
+  
+    <main>
+      <div class="container2">
+        <div class="card card1">
+          <div class="movie-presentation">
+            <span class="movie-title" title="Barbie">Barbie</span>
+            <div class="star"><img src="./IMG/Star.svg" alt="ícone de estrela da classificação do filme">4.9</div>
+          </div>
+          <div class="photo">
+            <img src="./IMG/barbie.png" alt="Foto de capa do filme">
+          </div>
+          <div class="time">
+            <span><i class="ph ph-clock"></i> 1:54:00</span>
+            <span><i class="ph ph-calendar-blank"></i> 2023</span>
+          </div>
+          <div class="view">
+            <button id="movie1" class="play"><img src="./IMG/icone.svg" alt="ícone de play do botão assistir trailer">Assistir trailer</button>
+          </div>
+        </div>
+        <div class="card card2">
+          <div class="movie-presentation">
+            <span class="movie-title" title="Oppenheimer">Oppenheimer</span>
+            <div class="star"><img src="./IMG/Star.svg" alt="ícone de estrela da classificação do filme">4.5</div>
+          </div>
+          <div class="photo">
+            <img src="./IMG/openheimer.png" alt="Foto de capa do filme">
+          </div>
+          <div class="time">
+            <span><i class="ph ph-clock"></i> 2:20:00</span>
+            <span><i class="ph ph-calendar-blank"></i> 2023</span>
+          </div>
+          <div class="view">
+            <button id="movie2" class="play"><img src="./IMG/icone.svg" alt="ícone de play do botão assistir trailer">Assistir trailer</button>
+          </div>
+        </div>
+        <div class="card card3">
+          <div class="movie-presentation">
+            <span class="movie-title" title="Indiana Jones e o chamado do destino">Indiana Jones e o chamado do destino</span>
+            <div class="star"><img src="./IMG/Star.svg" alt="ícone de estrela da classificação do filme">5.1</div>
+          </div>
+          <div class="photo">
+            <img src="./IMG/indianaJones.png" alt="Foto de capa do filme">
+          </div>
+          <div class="time">
+            <span><i class="ph ph-clock"></i> 2:18:00</span>
+            <span><i class="ph ph-calendar-blank"></i> 2023</span>
+          </div>
+          <div class="view">
+            <button id="movie3" class="play"><img src="./IMG/icone.svg" alt="ícone de play do botão assistir trailer"> Assistir trailer</button>
+          </div>
+        </div>
+
+        <div class="card card4 none">
+          <div class="movie-presentation">
+            <span class="movie-title" title="A Bela e a Fera">A Bela e a Fera</span>
+            <div class="star"><img src="./IMG/Star.svg" alt="ícone de estrela da classificação do filme">5.8</div>
+          </div>
+          <div class="photo">
+            <img src="./IMG/belaEfera.jpg" alt="Foto de capa do filme">
+          </div>
+          <div class="time">
+            <span><i class="ph ph-clock"></i> 1:12:00</span>
+            <span><i class="ph ph-calendar-blank"></i> 2022</span>
+          </div>
+          <div class="view">
+            <button id="movie4" class="play"><img src="./IMG/icone.svg" alt="ícone de play do botão assistir trailer">Assistir trailer</button>
+          </div>
+        </div>
+
+        <div class="card card5 none">
+          <div class="movie-presentation">
+            <span class="movie-title" title="Drácula: a última viagem do Deméter">Drácula: a última viagem do Deméter</span>
+            <div class="star"><img src="./IMG/Star.svg" alt="ícone de estrela da classificação do filme">4.1</div>
+          </div>
+          <div class="photo">
+            <img src="./IMG/dracula.jpg" alt="Foto de capa do filme">
+          </div>
+          <div class="time">
+            <span><i class="ph ph-clock"></i> 1:59:00</span>
+            <span><i class="ph ph-calendar-blank"></i>2023</span>
+          </div>
+          <div class="view">
+            <button id="movie5" class="play"><img src="./IMG/icone.svg" alt="ícone de play do botão assistir trailer">Assistir trailer</button>
+          </div>
+        </div>
+
+        <div class="card card6 none">
+          <div class="movie-presentation">
+            <span class="movie-title" title="Muti: crime e poder">Muti: crime e poder</span>
+            <div class="star"><img src="./IMG/Star.svg" alt="ícone de estrela da classificação do filme">4.8</div>
+          </div>
+          <div class="photo">
+            <img src="./IMG/muti.jpg" alt="Foto de capa do filme">
+          </div>
+          <div class="time">
+            <span><i class="ph ph-clock"></i> 1:32:00</span>
+            <span><i class="ph ph-calendar-blank"></i>2023</span>
+          </div>
+          <div class="view">
+            <button id="movie6" class="play"><img src="./IMG/icone.svg" alt="ícone de play do botão assistir trailer">Assistir trailer</button>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
